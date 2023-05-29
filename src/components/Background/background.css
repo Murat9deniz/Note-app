@@ -1,0 +1,16 @@
+.box {
+    width: 600px;
+    height: 600px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box > h1{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: normal;  
+    text-transform: capitalize;
+}

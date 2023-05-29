@@ -1,0 +1,31 @@
+.input {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+}
+
+.input > input[type='text'] {
+  background-color: transparent;
+  border: solid #4d4ef5 1px;
+  color: aliceblue;
+  width: 70%;
+  height: 95%;
+  padding: 0;
+  padding-left: 5px;
+}
+
+.input > input[type='text']:focus {
+  outline: none;
+}
+
+.input > input[type='button'] {
+  width: 30%;
+  height: 100%;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  color: aliceblue;
+  border: #4d4ef5 solid 1px;
+  border: none;
+  cursor: pointer;
+}
